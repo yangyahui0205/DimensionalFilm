@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/start_page"
+    android:background="@mipmap/start_page_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_start_page"
+        android:layout_centerHorizontal="true"
+        android:text="维度影院"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:id="@+id/tv_start_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_24"
+        android:layout_marginBottom="@dimen/dp_98"
+        android:text="一场不一样的视觉盛宴"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_14" />
+</RelativeLayout>

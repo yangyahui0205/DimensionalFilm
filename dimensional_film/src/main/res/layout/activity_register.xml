@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_register_background"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_40"
+    android:paddingRight="@dimen/dp_40">
+
+    <EditText
+        android:id="@+id/et_nickname_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_140"
+        android:backgroundTint="#10ffffff"
+        android:drawableLeft="@mipmap/register_icon_name"
+        android:drawablePadding="20dp"
+        android:hint="昵称"
+        android:textColorHint="#eeeeee"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_sex_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:textColor="#fff"
+        android:layout_below="@id/et_nickname_register"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#10ffffff"
+        android:drawableLeft="@mipmap/register_icon_sex"
+        android:drawablePadding="20dp"
+        android:hint="性别"
+        android:textColorHint="#eeeeee"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_data_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:textColor="#fff"
+        android:layout_below="@id/et_sex_register"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#10ffffff"
+        android:drawableLeft="@mipmap/register_icon_sex"
+        android:drawablePadding="20dp"
+        android:hint="出生日期"
+        android:textColorHint="#eeeeee"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_userPhone_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:textColor="#fff"
+        android:layout_below="@id/et_data_register"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#10ffffff"
+        android:drawableLeft="@mipmap/register_icon_phone"
+        android:drawablePadding="20dp"
+        android:hint="手机号"
+        android:textColorHint="#eeeeee"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_email_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/et_userPhone_register"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#10ffffff"
+        android:drawableLeft="@mipmap/register_icon_mail"
+        android:drawablePadding="20dp"
+        android:hint="邮箱"
+        android:textColorHint="#eeeeee"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_userPwd_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/et_email_register"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#10ffffff"
+        android:drawableLeft="@mipmap/register_icon_lock"
+        android:drawablePadding="20dp"
+        android:hint="登录密码"
+        android:textColorHint="#eeeeee"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/et_userPwd_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_78"
+        android:background="@drawable/login_register_background"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
